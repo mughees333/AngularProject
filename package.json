@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is a Test Dir to learn Git and node",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mughees333/AngularProject.git"
+  },
+  "author": "Mughees",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mughees333/AngularProject/issues"
+  },
+  "homepage": "https://github.com/mughees333/AngularProject#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
